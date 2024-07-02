@@ -17,41 +17,38 @@ img[alt="imagemHackersDoBem"] {
     max-width: 100%;
     width: 130px;
     height: 120px;
-    padding-right: 50px;
+    padding-right: 10px;
     text-align: center;
 }
 
+#imagensHome{
+
+    justify-content: space-around;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 20%;
+}
 .imgEcotech1{
     border-radius: 20%;
-    width: 200px;
-    height: 200px;
-    margin-right: 40px;
-    text-align: center;
-    overflow: hidden;
-    display: flex;  
-    overflow-clip-margin: content-box;    
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
 }
 
 .imgEcotech2{
     border-radius: 20%;
-    width: 200px;
-    height: 200px;
-    margin-right: 40px;
-    text-align: center;
-    overflow: hidden;
-    display: flex;
-    overflow-clip-margin: content-box;   
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
 }
 
 .imgEcotech3{
     border-radius: 20%;
-    width: 200px;
-    height: 200px;
-    margin-right: 40px;
-    text-align: center;
-    overflow: hidden;
-    display: flex;  
-    overflow-clip-margin: content-box;   
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
 }
 
 #home{
@@ -83,16 +80,6 @@ section {
     padding: 50px;
 }
 
-footer {
-    background-color: #333;
-    color: #ffffff;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        padding: 20px 0;
-        text-align: center;
-    }
-
 #sobreNos,
 #projects,
 #index {
@@ -104,18 +91,68 @@ footer {
 #projects{
      ul {
         list-style-type: none;
-        padding: 20px;  
     }
     
      ul li {
-        display: inline-block;
-        margin-right: 20px;
+        justify-content: space-around;
+        display: flex; 
+        align-items: center;
+        margin-left: 18%;
+        margin-right: 20%;
     }
     
      ul li a {
         color: #fff;
         text-decoration: none;
     }
+}
+
+.imgHackersDoBem{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.imgAtividadesIlegais{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.imgSoftwareSustentavel{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.imgEnergiaRenovavel{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.imgDesastresNaturais{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.imgVidaSelvagem{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 .p3 {
@@ -132,3 +169,13 @@ footer {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+        position: static;
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
